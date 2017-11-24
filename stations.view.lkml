@@ -67,6 +67,11 @@ view: stations {
     sql: ${TABLE}.longitude;;
   }
 
+  dimension: station_location {
+    type: location
+    sql_latitude: ${latitude};;
+    sql_longitude: ${longitude} ;;
+  }
 
 
   dimension: name {
