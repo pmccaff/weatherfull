@@ -64,8 +64,10 @@ view: stations {
 
   dimension: longitude {
     type: number
-    sql: ${TABLE}.longitude ;;
+    sql: ${TABLE}.longitude;;
   }
+
+
 
   dimension: name {
     type: string
